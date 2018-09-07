@@ -9,10 +9,10 @@ package Clase1;
  *
  * @author Programacion
  */
-public class Persona {
+public class Cliente {
     
-    String Nombre, Apellido;
-    double Peso, Estatura;
+    String Nombre, Apellido, Dni, Edad;
+    double Peso, Estatura, Color;
 
     public String getNombre() {
         return Nombre;
@@ -30,6 +30,22 @@ public class Persona {
         this.Apellido = Apellido;
     }
 
+    public String getDni() {
+        return Dni;
+    }
+
+    public void setDni(String Dni) {
+        this.Dni = Dni;
+    }
+
+    public String getEdad() {
+        return Edad;
+    }
+
+    public void setEdad(String Edad) {
+        this.Edad = Edad;
+    }
+
     public double getPeso() {
         return Peso;
     }
@@ -44,6 +60,14 @@ public class Persona {
 
     public void setEstatura(double Estatura) {
         this.Estatura = Estatura;
+    }
+
+    public double getColor() {
+        return Color;
+    }
+
+    public void setColor(double Color) {
+        this.Color = Color;
     }
     
     
