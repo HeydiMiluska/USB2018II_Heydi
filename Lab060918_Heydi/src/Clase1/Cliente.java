@@ -13,7 +13,10 @@ public class Cliente {
     
     String Nombre, Apellido, Dni, Edad;
     double Peso, Estatura, Color;
-
+    /**tu mama norka*/
+    /**tu mama nork0a*/
+    /**tu mama nork0a*/
+    /**tu mama nork0a*/
     public String getNombre() {
         return Nombre;
     }
